@@ -1,0 +1,52 @@
+body {
+    background-color: white;
+    color: black;
+    font-family: cursive, Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+.menu-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.restaurant-name {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: Ananda Black;
+}
+
+.menu-category {
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #e4b339;
+}
+
+.menu-item-quick-bites {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.item-name-quick-bites {
+    flex-grow: 1;
+    text-transform: uppercase;
+    text-align: left;
+    color: #000000; /* Black color */
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.item-price-quick-bites {
+    text-align: right;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+}
